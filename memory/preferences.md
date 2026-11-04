@@ -18,4 +18,6 @@ The designer's taste and working preferences. Read at every session start; keep 
 
 ## Taste
 
-- (Nothing yet. Record colors, motion, composition and references the designer likes or rejects.)
+- She keeps her palette B and Love.32 colours exactly; never change them.
+- Motion: slow, organised, mathematically clean.
+- Points: fine, dense, small; not squares.
