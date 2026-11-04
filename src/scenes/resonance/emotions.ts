@@ -46,8 +46,8 @@ export const WHITE: V = [0.95, 0.95, 0.98]
 
 /** HER KNOB RULE (28 Sep deck): the knob value sets how many lines this emotion draws. */
 export function nLines(e: Emotion): number {
-  // TODO(human)
-  return 0
+  // every 5 = 1 line (10 = 2, 20 = 4), up to the emotion's cap so eight at once stay readable (as in her web build)
+  return Math.floor(clamp(e.knob, 0, e.cap) / 5)
 }
 
 /** how far a line may reach along its path, 0..1 (a low knob gives short lines) */
