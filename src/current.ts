@@ -1,1 +1,1 @@
-export default 'blank'
+export default 'resonance'
