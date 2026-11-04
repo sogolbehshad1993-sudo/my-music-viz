@@ -22,5 +22,6 @@
     "typescript": "7.0.2",
     "vite": "8.3.5"
   },
-  "description": "A fullscreen WebGPU + TSL playground for designing 3D experiments step by step with an AI agent"
+  "description": "A fullscreen WebGPU + TSL playground for designing 3D experiments step by step with an AI agent",
+  "license": "MIT"
 }
