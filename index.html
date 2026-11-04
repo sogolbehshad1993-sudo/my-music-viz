@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>playground</title>
+    <style>
+      html, body { margin: 0; height: 100%; background: #000; overflow: hidden; }
+      body { display: grid; place-items: center; }
+      canvas { display: block; }
+      body.ui-hidden, body.ui-hidden canvas { cursor: none; }
+      body.ui-hidden .lil-gui, body.ui-hidden #theatrejs-studio-root { display: none; }
+      body.pg-timeline .lil-gui.autoPlace { left: 12px; right: auto; top: 140px; }
+      #pg-error { position: fixed; left: 12px; bottom: 12px; max-width: 70vw; font: 12px/1.4 ui-monospace, monospace; color: #ff6b6b; white-space: pre-wrap; pointer-events: none; }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

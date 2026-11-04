@@ -1,0 +1,26 @@
+{
+  "name": "3d-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "check": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "mood": "node scripts/mood.ts"
+  },
+  "dependencies": {
+    "@theatre/core": "0.7.2",
+    "gsap": "3.15.0",
+    "lil-gui": "0.21.0",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@theatre/studio": "0.7.2",
+    "@types/three": "0.187.0",
+    "typescript": "7.0.2",
+    "vite": "8.3.5"
+  },
+  "description": "A fullscreen WebGPU + TSL playground for designing 3D experiments step by step with an AI agent"
+}
