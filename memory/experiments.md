@@ -23,4 +23,5 @@ One section per experiment, newest first. Template:
 - Births: 5 body grains gather into one drop over 3.5 s. Sway 0.5 rad over 24 s. Life slowed to 0.3.
 - Her binding rules (28 Sep deck): knob value = number of lines, every 5 = 1 line (10 = 2, 20 = 4); all knobs at 100 = THE VOID; each line ends in a text from Alireza (later).
 - Left out on purpose: the WOW body switch and haze.
-- Open: `nLines()` in `emotions.ts` is a TODO(human) for her to write; the void, the text endings and the music bridge are not ported yet.
+- 4 Nov: she asked me to write the knob rule: every 5 = 1 line, capped per emotion as in her web build (commit 5c58858). The void is ported (white 0.3 s, burst with about 4300 smears, dark outline, slow return), with an `allAt100` panel toggle to try it.
+- Open: Alireza's text endings and the music bridge (Arash's sound) are not ported yet.
